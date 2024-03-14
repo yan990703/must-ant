@@ -7,9 +7,22 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.7.2",
+    "@vue/runtime-core": "^3.4.21",
+    "ant-design-vue": "1.7.8",
+    "axios": "^1.6.8",
+    "boxicons": "^2.1.4",
+    "chart.js": "^4.4.2",
     "core-js": "^3.8.3",
+    "echarts": "^5.4.2",
+    "socket.io-client": "^4.7.5",
     "vue": "^2.6.14",
-    "vue-router": "^3.5.1"
+    "vue-echarts": "^6.6.9",
+    "vue-github-buttons": "^3.1.0",
+    "vue-puzzle-vcode": "^1.1.10",
+    "vue-router": "^3.5.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
@@ -17,7 +30,9 @@
     "@vue/cli-service": "~5.0.0",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.1.1",
+    "webpack-cli": "^5.1.4"
   },
   "browserslist": [
     "> 1%",
